@@ -5,7 +5,7 @@ First Python API using:
  * python 3.5
  * virtualenv
  * flask
- * flake8
+ * SQLite
  
 # Local Deployment
 
@@ -21,3 +21,9 @@ Active your virtual environment and set the **FLASK_APP=app.py** in your termina
 You should have access through: 
 
 `http://localhost:5000/music-archive/api/v1`
+
+# Testing Environment
+
+If you want to test the API:
+
+`https://playing-with-python.herokuapp.com/music-archive/api/v1/`

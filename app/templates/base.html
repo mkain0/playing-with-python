@@ -1,0 +1,13 @@
+<html>
+    <head>{% if title %}
+        <title>{{ title }}</title>
+        {% else %}
+        <title>Welcome to Music Archive API!</title>
+        {% endif %}
+    </head>
+    <body>
+        <div><a href="/music-archive/api/v1/index">Home</a></div>
+        <hr>
+        {% block content %}{% endblock %}
+    </body>
+</html>
