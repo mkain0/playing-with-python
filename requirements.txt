@@ -22,6 +22,7 @@ marshmallow==2.15.1
 marshmallow-sqlalchemy==0.13.2
 mccabe==0.6.1
 parso==0.2.0
+passlib==1.7.1
 pexpect==4.5.0
 pickleshare==0.7.4
 prompt-toolkit==1.0.15

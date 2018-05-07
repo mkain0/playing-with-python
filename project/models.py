@@ -1,4 +1,4 @@
-from app import db, marshmallow
+from project import db, marshmallow
 
 
 class Url(db.Model):
