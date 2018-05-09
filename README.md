@@ -22,6 +22,10 @@ You should have access through:
 
 `http://localhost:5000/music-archive/api/v1`
 
+As exampple to run a test:
+
+`py.test test/integration/test_artists.py`
+
 # Testing Environment
 
 If you want to test the API:
