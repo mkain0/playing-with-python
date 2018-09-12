@@ -25,6 +25,7 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+*.db
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -100,3 +101,11 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# pandas
+*.dta
+*.xpt
+*.h5
+pandas/io/*.dat
+pandas/io/*.json
+scikits

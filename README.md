@@ -1,33 +1,10 @@
-# playing-with-python
+# Fist stuffs playing with Python
 
-First Python API using:
+As general comment don't pay attention to the following files: requirements.txt and Procfile in the root of the repository.
+Those files are part of the flask-rest-api to build the pack using Heroku platform. 
 
- * python 3.5
- * virtualenv
- * flask
- * SQLite
+## flask-rest-api
+
+It is a REST API build with Flask framework and SQLite.
+
  
-# Local Deployment
-
-Open the folder **playing-with-python** with your text editor or IDE. 
-Create a virtual environment and install the dependencies:
-
-`pip install -r requirements.txt`
-
-Active your virtual environment and set the **FLASK_APP=main.py** in your terminal session, and then execute:
-
-`flask run`
-
-You should have access through: 
-
-`http://localhost:5000/music-archive/api/v1`
-
-As exampple to run a test:
-
-`py.test test/integration/test_artists.py`
-
-# Testing Environment
-
-If you want to test the API:
-
-`https://playing-with-python.herokuapp.com/music-archive/api/v1/`
